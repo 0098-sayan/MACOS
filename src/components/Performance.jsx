@@ -74,7 +74,8 @@ const Performance = () => {
                         key={index}
                         src={item.src}
                         className={item.id}
-                        alt={item.alt || `Performance Image #${index + 1}`}
+                        alt={item.alt || `MacBook performance chip detail ${index + 1}`}
+                        loading="lazy"
                     />
                 ))}
              </div>

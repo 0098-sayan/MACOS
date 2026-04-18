@@ -19,8 +19,9 @@ const Hero = () => {
         autoPlay
         muted
         playsInline
+        preload="auto"
       ></video>
-      <button>Buy</button>
+      <button type="button">Buy</button>
       <p>From $1599 or $133/mo for 12 months</p>
     </section>
   );
