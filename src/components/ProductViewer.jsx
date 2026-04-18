@@ -46,7 +46,7 @@ const ProductViewer = () => {
                   : "bg-transparent text-white",
               )}
             >
-              <p>14"</p>
+              <p>14&quot;</p>
             </div>
             <div
               onClick={() => setScale(0.08)}
@@ -56,7 +56,7 @@ const ProductViewer = () => {
                   : "bg-transparent text-white",
               )}
             >
-              <p>16"</p>
+              <p>16&quot;</p>
             </div>
           </div>
         </div>
